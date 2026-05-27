@@ -16,4 +16,4 @@ node_modules/
 .DS_Store
 
 # ML models (optional)
-saved_models/
+saved_models/jobs_cache.json

@@ -1,0 +1,197 @@
+/* Header */
+.header {
+  background: linear-gradient(90deg, #01428d, #02438f);
+  color: white;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  opacity: 0.95;
+}
+
+.header h1 {
+  font-size: 1.6rem; /* bigger logo text */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, transform 0.2s ease;
+  font-size: 1.05rem;
+}
+
+.header nav a:hover {
+  color: #ffe082;
+  transform: translateY(-2px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-right: 1px solid #ddd;
+  border-radius: 0 12px 12px 0;
+  box-shadow: inset -1px 0 0 rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.sidebar h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #00499d;
+}
+
+.sidebar p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Dashboard stats */
+.stats {
+  display: flex;
+  gap: 25px; /* more space between stats */
+  margin-bottom: 2rem;
+}
+
+.stats p {
+  background: #f9f9f9;
+  padding: 14px 22px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: background 0.2s ease;
+}
+
+.stats p:hover {
+  background: #e3f2fd;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 25px;               /* bigger spacing between buttons */
+  justify-content: center; /* center buttons horizontally */
+  margin-top: 25px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #004797;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: #004785;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Job Card */
+.job-card {
+  border: 1px solid #ddd;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.job-card h3 {
+  margin-bottom: 0.6rem;
+  color: #4a90e2;
+  font-size: 1.2rem;
+}
+
+/* Application Form */
+.application-form {
+  margin: 1.5rem 0;
+}
+
+.application-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.application-form input,
+.application-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  font-size: 1rem;
+}
+
+.application-form input:focus,
+.application-form textarea:focus {
+  border-color: #0063d5;
+  outline: none;
+  box-shadow: 0 0 6px rgba(74,144,226,0.4);
+}
+
+/* Cover Letter Editor */
+.cover-letter-editor textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  font-size: 1rem;
+}
+
+.cover-letter-editor textarea:focus {
+  border-color: #0060ce;
+  outline: none;
+  box-shadow: 0 0 6px rgba(74,144,226,0.4);
+}
+.actions {
+  display: flex;
+  justify-content: center; /* center buttons horizontally */
+  gap: 20px;               /* space between buttons */
+  margin-top: 10px;        /* add some breathing room above */
+}
+.job-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;              
+  margin-top: 20px;       
+}
+.search-filter button {
+  gap: 5px; 
+  padding: 5px 8px;
+  background: #034b9e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.search-filter button:hover {
+  background: #024b8a;
+}
